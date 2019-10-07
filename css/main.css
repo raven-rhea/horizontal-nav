@@ -8,6 +8,7 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 h1 {
   font-family: Bevan, serif;
   text-align: center;
@@ -17,13 +18,30 @@ h1 {
 }
 
 ul li {
-   padding: .5em .75em;
-   color: #fff;
-   background-color: #713837;
-   margin: 0;
-   display: inline-block;
-   border-radius: 4px;
-   text-align: center;
+  padding: .5em .75em;
+  color: #fff;
+  background-color: #713837;
+  margin: 0;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+  list-style-type: none;
+}
+
+nav a {
+  padding: .5em .75em;
+  color: #fff;
+  background-color: #713837;
+  margin: 0;
+  display: inline-block;
+  border-radius: 4px;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #f33;
 }
 
 body {
