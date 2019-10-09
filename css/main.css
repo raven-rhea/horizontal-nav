@@ -17,11 +17,15 @@ h1 {
   margin: 0;
 }
 
+ul {
+  margin: 0;
+}
+
 ul li {
-  padding: .5em .75em;
+  padding: .2em;
   color: #fff;
   background-color: #713837;
-  margin: 0;
+  margin: .2em;
   display: inline-block;
   border-radius: 4px;
   text-align: center;
